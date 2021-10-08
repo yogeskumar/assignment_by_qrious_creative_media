@@ -94,7 +94,7 @@ a:hover {
     z-index: 2;
   }
   a {
-    font-size: 40px;
+    font-size: 15px;
     width: fit-content;
     height: fit-content;
     text-decoration: none;
@@ -103,7 +103,7 @@ a:hover {
   }
 
   a:hover {
-    font-size: 45px;
+    font-size: 20px;
     text-decoration: none;
     color: bisque;
     background-color: rgba(136, 82, 20, 0.8);
