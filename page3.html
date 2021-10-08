@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Interactive Video3</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <center>
+      <div id="main-div">
+        <div id="div1">
+          <a id="a1" onclick='a1Clicked("1. Home")' href="./index.html"
+            >1. Home</a
+          >
+        </div>
+        <div id="div2">
+          <a id="a2" onclick='a2Clicked("2. Design")' href="./page2.html"
+            >2. Design</a
+          >
+        </div>
+        <video id="myvideo" autoplay controls muted>
+          <source id="vid-source" src="./clip3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
